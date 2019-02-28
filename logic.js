@@ -1,6 +1,6 @@
 var myMap = L.map("map", {
   center: [36.77, -119.41],
-  zoom: 15,
+  zoom: 5,
 });
 url = 'https://api.songkick.com/api/3.0/metro_areas/31422/calendar.json?apikey=WewWUhkws9IU4phb';
 
@@ -43,10 +43,12 @@ d3.csv("ArtistList.csv").then(function (artist) {
     // var markers = L.markerClusterGroup();
     var markers = L.marker();
     for (var i = 0; i < events.length; i++) {
+      console.log(events[i].displayName)
 
       // markers.addLayer(L.marker([events[i].location.lng, events[i].location.lat]))
       console.log([events[i].location.lng, events[i].location.lat])
-      L.marker([events[i].location.lat, events[i].location.lng]).addTo(myMap)
+      var ticket = `<a href=${events[i].uri}>Tickets</a>`
+      L.marker([events[i].location.lat, events[i].location.lng]).bindPopup(`events name: ${events[i].displayName}, Location: ${events[i].location.city}, url for tickets: ` + ticket).addTo(myMap)
     }
     //myMap.addLayer(markers);
     // }
