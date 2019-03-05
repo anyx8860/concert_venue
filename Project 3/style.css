@@ -1,0 +1,24 @@
+/* remove default margin and padding from body */
+body {
+    background-image: url("Concert3.jpg");
+    background-color: initial;
+    /* //options initial|inherit|transperant; */
+    height: 5px;
+    background-position: center;
+    background-size: cover;
+    /* background-size: 300px 100px; */
+    object-fit: fill;
+    padding: 0;
+    margin: 0;
+}
+  /* set map, body, and html to 100% of the screen size */
+  #map {
+    position: inherited;
+    width:100%;
+    height:700px;
+  }
+  body,
+  html {
+    height: 100%;
+  }
+  

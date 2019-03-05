@@ -1,0 +1,64 @@
+https://api.songkick.com/api/3.0/metro_areas/31422/gigography.json?apikey=WewWUhkws9IU4phb
+
+https://api.songkick.com/api/3.0/search/events&apikey=WewWUhkws9IU4phb&locations.json?query=CA&artists/4971683
+
+https://api.songkick.com/api/3.0/events.json?apikey=WewWUhkws9IU4phb&artists/4971683
+
+https://api.songkick.com/api/3.0/search/locations.json?query=US&apikey=WewWUhkws9IU4phb
+
+
+https://api.songkick.com/api/3.0/events.json?apikey=WewWUhkws9IU4phb&location=ip:100.64.74.108
+
+https://api.songkick.com/api/3.0/events.json?apikey=WewWUhkws9IU4phb&artist_name=vampire+weekend&location=ip:94.228.36.39
+
+
+https://api.songkick.com/api/3.0/events.json?apikey=WewWUhkws9IU4phb&artist_name=&location=geo:37.0902,-95.7129
+
+
+https://api.songkick.com/api/3.0/artists/4971683/calendar.json?apikey=WewWUhkws9IU4phb	
+
+https://api.songkick.com/api/3.0/search/locations.json?query=CA&apikey=WewWUhkws9IU4phb
+
+
+https://api.songkick.com/api/3.0/events.json?&artists/receiveData.resultsPage.results.artist[0].id/calendar.json?apikey=WewWUhkws9IU4phb
+
+https://api.songkick.com/api/3.0/events.json?query=CA&apikey=WewWUhkws9IU4phb&artists/4971683
+
+https://api.songkick.com/api/3.0/events.json?apikey=WewWUhkws9IU4phb&location=ip:75.98.119.13
+
+
+https://api.songkick.com/api/3.0/search/locations.json?query=US&apikey=WewWUhkws9IU4phb
+
+
+Pulls similar_artists to Ariana Grande
+https://api.songkick.com/api/3.0/artists/4971683/similar_artists.json?apikey=WewWUhkws9IU4phb
+
+Cold Play
+Chain Smokers
+Lorde
+Enrique
+Shawn Mendes
+Sam Smith
+
+Ariana Grande
+Pitbull
+Taylor Swift
+Selena Gomez
+Julia Michaels
+Maroon 5
+Ed Sheeran
+
+
+
+https://api.songkick.com/api/3.0/artists/4971683/calendar.json?apikey=WewWUhkws9IU4phb
+
+//images.sk-static.com/images/media/profile_images/artists/4971683/huge_avatar
+
+
+https://api.songkick.com/api/3.0/events.json?apikey=WewWUhkws9IU4phb&artist_id=4971683&min_date=2018-01-01&max_date=2020-12-30
+
+
+
+
+
+

@@ -17,6 +17,7 @@ var streetmap = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.pn
   id: 'mapbox.streets',
   accessToken: API_KEY,
 }).addTo(myMap)
+
 var id;
 var art = "Ariana Grande"
 d3.csv("ArtistList.csv").then(function (artist) {
